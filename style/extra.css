@@ -1,0 +1,205 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.weddingCard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.bg-success-soft{
+    background-color: rgb(240, 255, 247);
+}
+
+
+
+
+
+
+
+.rsvpBtn  {
+  box-shadow: 5px 5px #000;
+  border: 2px solid #000;
+  /* transition: all ease-in 0.2s; */
+}
+
+.rsvpBtn:hover {
+  box-shadow: none;
+  transform: translateY(4px);
+  transition: all ease-in 0.2s;
+}
+
+
+.modalClose:focus{
+    outline: none !important;
+    box-shadow: none !important; 
+}
+
+
+
+
+.res-img{
+    width: 25%;
+}
+
+.seeyouImg{
+    width: 25%;
+}
+
+.font-rochester{
+  font-family: "Rochester", cursive;
+}
+
+.coupleName {
+    font-size: 5vw;
+    font-family: "Rochester", cursive;
+
+}
+
+.timelineHead{
+  font-family: "Rochester", cursive;
+
+}
+
+
+
+
+#seeYou{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+/* scroll btn */
+
+.scrollBtn {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    animation: down 1.5s infinite;
+    -webkit-animation: down 1.5s infinite;
+  }
+  
+  .scrollBtn::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+    transform: rotate(-45deg);
+  }
+  
+  @keyframes down {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translateY(15px);
+    }
+    40% {
+      transform: translate(0);
+    }
+  }
+  @-webkit-keyframes down {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translateY(15px);
+    }
+    40% {
+      transform: translate(0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+
+    .coupleName{
+        font-size: 14vw;
+    }
+
+    .res-img{
+        width: 50%;
+    }
+
+    .seeyouImg{
+        width: 75%;
+    }
+
+}
+
+
+ /* Media Query for low resolution  Tablets, Ipads */
+ @media (min-width: 481px) and (max-width: 767px) {
+    .coupleName{
+        font-size: 12vw;
+    }
+
+    .seeyouImg{
+        width: 50%;
+    }
+
+    
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .coupleName{
+        font-size: 9vw;
+    }
+
+    .res-img{
+        width: 65%;
+    }
+
+    .seeyouImg{
+        width: 50%;
+    }
+}
+
+ /* Media Query for Laptops and Desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+    .coupleName{
+        font-size: 5.5vw;
+    }
+
+    .res-img{
+        width: 35%;
+    }
+
+    .seeyouImg{
+        width: 35%;
+    }
+
+
+}
+

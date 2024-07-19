@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishani & Gayan</title>
+
+    <!-- FavIcon -->
+    <link rel="icon" type="image/x-icon" href="images/favIcon.png">
+
+
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+
+
+
+    <!-- Boottsrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/extra.css">
+    <link rel="stylesheet" href="style/rsvp.css">
+    <link rel="stylesheet" href="style/timeline.css">
+</head>
+
+<body>
+
+
+    <!-- pre loader -->
+    <!-- <div class="loading-screen z-10">
+
+        <div class="loader">
+            <div class="loader-1 bar"></div>
+            <div class="loader-2 bar"></div>
+        </div>
+
+    </div> -->
+
+
+    <!-- Sakura Falling Div -->
+    <div class="sakura-falling"></div>
+
+    <!-- top right corner image -->
+    <img src="images/seeYou-top.png" alt="image-top-right" class="img-fluid res-img position-absolute top-0 end-0 z-15">
+    <!-- bottom image -->
+    <img src="images/seeYou-bottom.png" alt="image-top-left"
+        class="img-fluid res-img position-absolute bottom-0 start-0">
+
+
+    <!-- hero section -->
+    <div id="event" class="weddingCard container-fluid">
+
+
+        <h1 class="coupleName text-center">Dishani & <br>Gayan</h1>
+
+
+        <!-- Date -->
+        <h2 class="text-center dayTxt fw-normal mt-5" style="line-height: 1.5">
+            Wednesday<br>
+            21<sup>st</sup> August, 2024
+        </h2>
+
+        <!-- Time -->
+        <h3 class="text-center fw-normal mt-3 timeTxt">9.00 <small>am</small> - 4.00
+            <small>pm</small>
+        </h3>
+        <!-- Venue -->
+        <h4 class="text-center fw-normal mt-3 text-success venueTxt">
+            Earl's Regency Kandy<br>
+            Hall - Far Pavaliion
+        </h4>
+
+        <!-- RSVP Button -->
+        <div class="d-flex justify-content-center mt-5">
+            <a class="btn btn-success fw-bold px-4 py-2 rounded-pill rsvpBtn" data-bs-toggle="modal"
+                data-bs-target="#rsvpModal">
+                CLICK HERE
+            </a>
+        </div>
+
+        <button id="scrollButton" class="mt-5 scrollBtn"></button>
+
+
+    </div>
+
+
+    <!-- event plan | timeline -->
+
+    <h1 id="timeline" class="text-center timelineHead py-5 pb-0 pb-md-5">Wedding Timeline</h1>
+
+    <section class="timeline container mt-5 mt-md-0 pb-5">
+
+
+        <!-- single block | left-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+            <div class="timeline__content timeline__content--left">
+
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    PORUWA CEREMONY
+                    <div class="">
+                        <img src="images/icons/ring.png" width="40" alt="">
+                    </div>
+                </h6>
+
+
+                <div class="timeline__text--left d-flex flex-column">
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/ring.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">9:40 - 10:15 P.M.</span>
+                    <!-- desktop title -->
+                    <span class="d-none d-md-block fw-bold">PORUWA CEREMONY</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Join Gayan and Dishani for the traditional Poruwa Ceremony.</p>
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- single block | right-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+
+            <div class="timeline__content timeline__content--right">
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    OIL LAMP LIGHTING
+                    <div class="">
+                        <img src="images/icons/oilLamp.png" width="40" alt="">
+                    </div>
+                </h6>
+
+                <div class="timeline__text--right d-flex flex-column">
+
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/oilLamp.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">10.20 - 10.30 P.M.</span>
+                    <!-- desktop icon -->
+                    <span class="d-none d-md-block fw-bold">OIL LAMP LIGHTING</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Symbolizing the start of their new journey together.</p>
+                    </small>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <!-- single block | left-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+            <div class="timeline__content timeline__content--left">
+
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    REGISTRATION
+                    <div class="">
+                        <img src="images/icons/register.png" width="40" alt="">
+                    </div>
+                </h6>
+
+
+                <div class="timeline__text--left d-flex flex-column">
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/register.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">10:30 A.M.</span>
+                    <!-- desktop title -->
+                    <span class="d-none d-md-block fw-bold">REGISTRATION</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Be part of the official registration ceremony.</p>
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- single block | right-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+
+            <div class="timeline__content timeline__content--right">
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    SPEECHERS
+                    <div class="">
+                        <img src="images/icons/speech.png" width="40" alt="">
+                    </div>
+                </h6>
+
+                <div class="timeline__text--right d-flex flex-column">
+
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/speech.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">10.50 P.M.</span>
+                    <!-- desktop icon -->
+                    <span class="d-none d-md-block fw-bold">SPEECHERS</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Enjoy a collection of heartfelt speeches from those closest to Gayan and Dishani.</p>
+                    </small>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <!-- single block | left-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+            <div class="timeline__content timeline__content--left">
+
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    FATHER DAUGHTER DANCE
+                    <div class="">
+                        <img src="images/icons/fatherDance.png" width="40" alt="">
+                    </div>
+                </h6>
+
+
+                <div class="timeline__text--left d-flex flex-column">
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/fatherDance.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">11:20 A.M.</span>
+                    <!-- desktop title -->
+                    <span class="d-none d-md-block fw-bold">FATHER DAUGHTER DANCE</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Witness a beautiful father-daughter dance.</p>
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- single block | right-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+
+            <div class="timeline__content timeline__content--right">
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    LUNCH
+                    <div class="">
+                        <img src="images/icons/lunch.png" width="40" alt="">
+                    </div>
+                </h6>
+
+                <div class="timeline__text--right d-flex flex-column">
+
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/lunch.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">12.00 P.M.</span>
+                    <!-- desktop icon -->
+                    <span class="d-none d-md-block fw-bold">LUNCH</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Delight in a flavorful lunch as we continue the wedding festivities.</p>
+                    </small>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <!-- single block | left-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+            <div class="timeline__content timeline__content--left">
+
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    FIRST DANCE
+                    <div class="">
+                        <img src="images/icons/dance.png" width="40" alt="">
+                    </div>
+                </h6>
+
+
+                <div class="timeline__text--left d-flex flex-column">
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/dance.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">2:00 A.M.</span>
+                    <!-- desktop title -->
+                    <span class="d-none d-md-block fw-bold">FIRST DANCE</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Celebrate Gayan and Dishani’s first dance.</p>
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- single block | right-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+
+            <div class="timeline__content timeline__content--right">
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    GROUP DANCE
+                    <div class="">
+                        <img src="images/icons/groupDnace.png" width="40" alt="">
+                    </div>
+                </h6>
+
+                <div class="timeline__text--right d-flex flex-column">
+
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/groupDnace.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">2.10 P.M.</span>
+                    <!-- desktop icon -->
+                    <span class="d-none d-md-block fw-bold">GROUP DANCE</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Join the dance floor and celebrate.</p>
+                    </small>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <!-- single block | left-->
+        <div class="timeline__block mb-4 mb-md-0">
+            <div class="timeline__midpoint mt-1"></div>
+
+            <div class="timeline__content timeline__content--left">
+
+                <!-- mobile title -->
+                <h6 class="timeline__year d-flex align-items-center d-md-none gap-2">
+                    LEAVING HOTEL
+                    <div class="">
+                        <img src="images/icons/married.png" width="40" alt="">
+                    </div>
+                </h6>
+
+
+                <div class="timeline__text--left d-flex flex-column">
+                    <!-- icon for desktop -->
+                    <div class="d-none d-md-block">
+                        <img src="images/icons/married.png" width="50" alt="">
+                    </div>
+                    <!-- time -->
+                    <span class="">4:00 A.M.</span>
+                    <!-- desktop title -->
+                    <span class="d-none d-md-block fw-bold">LEAVING HOTEL</span>
+                    <!-- intro -->
+                    <small>
+                        <p>Farewell to the couple as they leave the hotel.</p>
+                    </small>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <section id="seeYou" class="position-relative">
+
+        <!-- top right corner image -->
+        <img src="images/right.png" alt="image-top-right"
+            class="img-fluid seeyouImg position-absolute top-0 end-0 z-5">
+        <!-- bottom image -->
+        <img src="images/bottom.png" alt="image-top-left"
+            class="img-fluid seeyouImg position-absolute bottom-0 start-0 z-5">
+
+        <!-- title -->
+        <div class="w-100 h-100 d-flex align-items-center justify-content-center">
+            <h1 class="seeYouTxt coupleName z-15 text-center">See you at the wedding</h1>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- RSVP Modal -->
+    <div class="modal fade" id="rsvpModal" tabindex="-1" aria-labelledby="fontModal" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content position-relative">
+
+                <img src="images/modal-leaf-top.png" class="img-fluid modalLeaf position-absolute top-0 end-0" alt="">
+                <img src="images/modal-leaf-bottom.png" class="img-fluid modalLeaf position-absolute bottom-0" alt="">
+
+
+                <div class="container-fluid border-4 h-100 p-5">
+
+
+
+                    <div class="row h-100">
+
+                        <div class="col-md-6 h-100 d-none d-md-flex align-items-center justify-content-center">
+                            <img src="images/modalImg.jpg" class="img-fluid" alt="">
+                        </div>
+
+
+
+                        <div
+                            class="position-relative col-md-6 h-100 d-flex flex-column align-items-center justify-content-center p-md-5">
+
+                            <!-- Modal Close Button -->
+                            <div class="position-absolute top-0 end-0 bg-light rounded-circle">
+                                <button type="button" class="btn-close modalClose p-3 p-md-4" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+
+
+                            <div class="p-md-5">
+
+                                <h1 class="display-2 font-rochester">RSVP</h1>
+
+                                <h6 class="fw-bold mb-4">Your kind respond is required before August 1<sup>st</sup>, 2024
+                                </h6>
+
+
+
+                                <form action="">
+
+
+                                    <!-- Accept or Reject -->
+                                    <div class="mt-4">
+
+                                        <!-- Accept -->
+                                        <div class="form-check mb-3">
+                                            <input class="form-check-input" type="radio" name="responseBtn"
+                                                id="acceptBtn" onclick="toggleFields()" checked>
+                                            <label class="form-check-label" for="acceptBtn">
+                                                Joyfully Accept
+                                            </label>
+                                        </div>
+
+                                        <!-- Reject -->
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="responseBtn"
+                                                id="rejectBtn" onclick="toggleFields()">
+                                            <label class="form-check-label" for="rejectBtn">
+                                                Regretfully Decline
+                                            </label>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Accept DIV -->
+                                    <div id="acceptFields" class="mt-4 show">
+
+                                        <!-- Name -->
+                                        <label for="guest" class="">Your Name</label>
+                                        <input type="text" class="form-control rsvpName" placeholder=""
+                                            autofocus>
+
+
+                                        <!-- number of guests -->
+                                        <label for="guest" class="mt-5">Number of Guests</label>
+                                        <input type="text" class="form-control guestNum" placeholder=""
+                                            autofocus>
+
+
+                                    </div>
+
+                                    <!-- Reject DIV -->
+                                    <div id="declineFields" class="mt-4">
+                                        <!-- Name -->
+                                        <label for="guest" class="">Your Name</label>
+                                        <input type="text" class="form-control rsvpName" placeholder=""
+                                            autofocus>
+                                    </div>
+
+
+                                    <div>
+                                        <a href="#" class="btn btn-success btn-lg rounded-pill mt-4">Submit</a>
+                                    </div>
+
+
+                                </form>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- scroll bottom button -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('scrollButton').addEventListener('click', function () {
+                document.getElementById('timeline').scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+
+
+
+    <!-- BoottsrP js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- scroll trigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js"></script>
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/scrollAnimation.js"></script>
+
+
+
+
+
+</body>
+
+</html>
